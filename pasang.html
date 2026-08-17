@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasang Lowongan — JOSH</title>
+  <meta name="description" content="Pasang lowongan kerja Anda di JOSH. Gratis, langsung kirim via WhatsApp.">
+  <meta name="theme-color" content="#000000">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css?v=bs" rel="stylesheet">
+</head>
+<body data-page="pasang">
+
+  <div id="nav-slot"></div>
+
+  <!-- Page Header -->
+  <section class="page-header-josh">
+    <div class="container">
+      <span class="eyebrow">📝 Pasang Lowongan</span>
+      <h1>Pasang Lowongan Kerja</h1>
+      <p>Isi form di bawah, kirim via WhatsApp, dan lowongan Anda akan tayang setelah diverifikasi</p>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="post-form-josh">
+    <div class="container">
+      <form id="post-job-form" novalidate>
+
+        <!-- Section: Perusahaan -->
+        <div class="form-section-josh">
+          <h3>📋 Data Perusahaan</h3>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-company">Nama Perusahaan <span class="req">wajib</span></label>
+                <input type="text" class="form-control-josh" id="f-company" placeholder="PT. BPR Bank Daerah Bangli">
+                <div class="form-error-josh">Nama perusahaan wajib diisi</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-contact">Nama Penanggung Jawab <span class="req">wajib</span></label>
+                <input type="text" class="form-control-josh" id="f-contact" placeholder="I Wayan Juni Artha">
+                <div class="form-error-josh">Nama kontak wajib diisi</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-phone">No. WhatsApp <span class="req">wajib</span></label>
+                <input type="tel" class="form-control-josh" id="f-phone" placeholder="081234567890">
+                <div class="form-error-josh">Format nomor tidak valid (08xxx)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Lowongan -->
+        <div class="form-section-josh">
+          <h3>💼 Detail Lowongan</h3>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-title">Judul Posisi <span class="req">wajib</span></label>
+                <input type="text" class="form-control-josh" id="f-title" placeholder="Staf Administrasi">
+                <div class="form-error-josh">Judul posisi wajib diisi</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-category">Kategori <span class="req">wajib</span></label>
+                <select class="form-select-josh" id="f-category"></select>
+                <div class="form-error-josh">Kategori wajib dipilih</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-type">Tipe Pekerjaan <span class="req">wajib</span></label>
+                <select class="form-select-josh" id="f-type"></select>
+                <div class="form-error-josh">Tipe pekerjaan wajib dipilih</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-location">Lokasi <span class="req">wajib</span></label>
+                <select class="form-select-josh" id="f-location"></select>
+                <div class="form-error-josh">Lokasi wajib dipilih</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-salary">Rentang Gaji <span class="req">opsional</span></label>
+                <input type="text" class="form-control-josh" id="f-salary" placeholder="Rp 3.000.000 - 5.000.000">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-description">Deskripsi Pekerjaan <span class="req">wajib</span></label>
+                <textarea class="form-control-josh" id="f-description" rows="4" placeholder="Jelaskan tanggung jawab, tugas, dan apa yang akan dilakukan oleh kandidat..."></textarea>
+                <div class="form-error-josh">Deskripsi wajib diisi</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-field-josh">
+                <label class="form-label-josh" for="f-requirements">Persyaratan <span class="req">opsional</span></label>
+                <textarea class="form-control-josh" id="f-requirements" rows="4" placeholder="Pendidikan minimal, pengalaman, skill yang dibutuhkan, dll..."></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Submit -->
+        <div class="d-flex gap-2 flex-wrap mt-4">
+          <button type="submit" class="btn btn-lg btn-dark px-5">📤 Kirim Lowongan via WhatsApp</button>
+          <a href="index.html" class="btn btn-lg btn-outline-dark">Batal</a>
+        </div>
+
+        <p class="text-muted mt-3" style="font-size:.8rem">
+          Dengan mengirim, Anda setuju lowongan akan diverifikasi admin sebelum tayang.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js?v=bs"></script>
+  <script src="js/post.js?v=bs"></script>
+</body>
+</html>

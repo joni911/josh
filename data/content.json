@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "JOSH — Job Optimisation and Staffing Hub | Lowongan Kerja Bangli",
+    "description": "Portal lowongan kerja daerah Bangli. Menghubungkan pencari kerja dengan pemilik usaha. Cari kerja atau pasang lowongan gratis."
+  },
+  "nav": {
+    "logo": "JOSH",
+    "logoSub": "Staffing Hub",
+    "links": [
+      { "label": "Beranda", "href": "index.html", "page": "index" },
+      { "label": "Lowongan", "href": "lowongan.html", "page": "lowongan" },
+      { "label": "Cara Kerja", "href": "index.html#cara-kerja", "page": "index" }
+    ],
+    "cta": { "label": "Pasang Lowongan", "href": "pasang.html" }
+  },
+  "hero": {
+    "eyebrow": "JOB OPTIMISATION AND STAFFING HUB",
+    "headline": "Temukan Kerja & Talenta Terbaik di <em>Bangli</em>",
+    "lead": "Platform lowongan kerja lokal yang menghubungkan pencari kerja dengan pemilik usaha di seluruh daerah Bangli. Gratis, cepat, dan mudah digunakan.",
+    "searchPlaceholder": "Cari posisi, perusahaan, atau kata kunci...",
+    "searchBtn": "Cari Lowongan",
+    "primaryBtn": "Jelajahi Lowongan",
+    "secondaryBtn": "Pasang Lowongan"
+  },
+  "stats": [
+    { "value": "120+", "label": "Lowongan Aktif" },
+    { "value": "85+", "label": "Perusahaan & UMKM" },
+    { "value": "4", "label": "Kecamatan Terjangkau" },
+    { "value": "100%", "label": "Gratis Digunakan" }
+  ],
+  "categoriesHead": {
+    "eyebrow": "KATEGORI",
+    "title": "Jelajahi Berdasarkan Bidang",
+    "lead": "Pilih kategori yang sesuai dengan keahlian atau kebutuhan usaha Anda."
+  },
+  "categories": [
+    { "name": "Administrasi", "icon": "📋" },
+    { "name": "Perhotelan & Pariwisata", "icon": "🏨" },
+    { "name": "Kuliner & F&B", "icon": "🍜" },
+    { "name": "Retail & Penjualan", "icon": "🛍️" },
+    { "name": "Konstruksi & Teknik", "icon": "🔨" },
+    { "name": "Pertanian & Perkebunan", "icon": "🌾" },
+    { "name": "Pendidikan", "icon": "📚" },
+    { "name": "Teknologi & Digital", "icon": "💻" }
+  ],
+  "featured": {
+    "eyebrow": "TERBARU",
+    "title": "Lowongan Unggulan",
+    "lead": "Lowongan terbaru yang baru saja dipasang oleh perusahaan dan UMKM di Bangli.",
+    "viewAll": "Lihat Semua Lowongan"
+  },
+  "howWorks": {
+    "eyebrow": "CARA KERJA",
+    "title": "Mudah untuk Semua",
+    "seekers": {
+      "title": "Untuk Pencari Kerja",
+      "steps": [
+        { "icon": "🔍", "title": "Cari Lowongan", "desc": "Telusuri ratusan lowongan berdasarkan kategori, lokasi, atau kata kunci." },
+        { "icon": "📄", "title": "Lihat Detail", "desc": "Baca deskripsi lengkap, syarat, dan info perusahaan sebelum melamar." },
+        { "icon": "💬", "title": "Lamar via WhatsApp", "desc": "Kirim lamaran langsung ke perusahaan lewat WhatsApp dalam satu klik." }
+      ]
+    },
+    "employers": {
+      "title": "Untuk Pemilik Usaha",
+      "steps": [
+        { "icon": "✍️", "title": "Isi Formulir", "desc": "Lengkapi detail perusahaan dan posisi yang Anda butuhkan." },
+        { "icon": "📢", "title": "Publikasikan", "desc": "Lowongan Anda tampil di portal dan dilihat pencari kerja se-Bangli." },
+        { "icon": "🤝", "title": "Terima Pelamar", "desc": "Pelamar menghubungi Anda langsung via WhatsApp. Pilih yang terbaik." }
+      ]
+    }
+  },
+  "cta": {
+    "title": "Punya Usaha & Butuh Karyawan?",
+    "lead": "Pasang lowongan Anda secara gratis dan temukan talenta lokal terbaik di Bangli hari ini.",
+    "btn": "Pasang Lowongan Sekarang"
+  },
+  "footer": {
+    "tagline": "Job Optimisation and Staffing Hub. Menghubungkan pekerja dan pemilik usaha di daerah Bangli.",
+    "colLinks": { "title": "Navigasi", "items": [
+      { "label": "Beranda", "href": "index.html" },
+      { "label": "Lowongan", "href": "lowongan.html" },
+      { "label": "Pasang Lowongan", "href": "pasang.html" }
+    ]},
+    "colCat": { "title": "Kategori Populer", "items": [
+      { "label": "Perhotelan & Pariwisata", "href": "lowongan.html?category=Perhotelan%20%26%20Pariwisata" },
+      { "label": "Kuliner & F&B", "href": "lowongan.html?category=Kuliner%20%26%20F%26B" },
+      { "label": "Administrasi", "href": "lowongan.html?category=Administrasi" }
+    ]},
+    "colContact": { "title": "Kontak", "email": "info@josh-bangli.id", "phone": "+62 812-0000-0000", "area": "Bangli, Bali, Indonesia" },
+    "copyright": "© 2026 JOSH — Job Optimisation and Staffing Hub. Dibuat untuk masyarakat Bangli."
+  },
+  "listings": {
+    "eyebrow": "SEMUA LOWONGAN",
+    "title": "Lowongan Kerja di Bangli",
+    "searchPlaceholder": "Cari posisi atau perusahaan...",
+    "filterCategory": "Semua Kategori",
+    "filterType": "Semua Tipe",
+    "filterLocation": "Semua Lokasi",
+    "resultOne": "lowongan ditemukan",
+    "noResults": "Tidak ada lowongan yang cocok dengan pencarian Anda.",
+    "noResultsSub": "Coba ubah kata kunci atau filter."
+  },
+  "detail": {
+    "backLabel": "Kembali ke Lowongan",
+    "descTitle": "Deskripsi Pekerjaan",
+    "reqTitle": "Kualifikasi & Syarat",
+    "aboutTitle": "Tentang Perusahaan",
+    "applyTitle": "Tertarik dengan posisi ini?",
+    "applyBtn": "Lamar via WhatsApp",
+    "salaryLabel": "Gaji",
+    "typeLabel": "Tipe",
+    "locationLabel": "Lokasi",
+    "postedLabel": "Diposting",
+    "similarTitle": "Lowongan Serupa",
+    "notFound": "Lowongan tidak ditemukan",
+    "notFoundSub": "Lowongan yang Anda cari mungkin sudah ditutup atau tidak tersedia.",
+    "notFoundBtn": "Lihat Semua Lowongan"
+  },
+  "post": {
+    "eyebrow": "PASANG LOWONGAN",
+    "title": "Publikasikan Lowongan Anda",
+    "lead": "Isi formulir di bawah. Lowongan akan dikirim ke admin JOSH via WhatsApp untuk dipublikasikan. Gratis!",
+    "sectionCompany": "Informasi Perusahaan",
+    "sectionJob": "Detail Lowongan",
+    "fields": {
+      "company": "Nama Perusahaan / Usaha",
+      "companyPh": "Contoh: Warung Makan Bali Sari",
+      "contact": "Nama Kontak (PIC)",
+      "contactPh": "Nama penanggung jawab",
+      "whatsapp": "Nomor WhatsApp",
+      "whatsappPh": "0812xxxxxxxx",
+      "about": "Tentang Usaha (opsional)",
+      "aboutPh": "Deskripsi singkat tentang usaha Anda",
+      "title": "Posisi yang Dibutuhkan",
+      "titlePh": "Contoh: Kasir, Barista, Staf Gudang",
+      "category": "Kategori",
+      "type": "Tipe Pekerjaan",
+      "location": "Lokasi",
+      "salary": "Kisaran Gaji (opsional)",
+      "salaryPh": "Contoh: Rp 2.000.000 - 3.000.000/bulan",
+      "desc": "Deskripsi Pekerjaan",
+      "descPh": "Jelaskan tugas dan tanggung jawab posisi ini...",
+      "req": "Kualifikasi / Syarat",
+      "reqPh": "Satu syarat per baris. Contoh:\nMinimal SMA/SMK\nJujur dan disiplin\nBersedia kerja shift"
+    },
+    "jobTypes": ["Full-time", "Part-time", "Kontrak", "Magang", "Freelance"],
+    "locations": ["Bangli Kota", "Susut", "Tembuku", "Kintamani"],
+    "errors": {
+      "company": "Nama perusahaan wajib diisi.",
+      "contact": "Nama kontak wajib diisi.",
+      "whatsapp": "Nomor WhatsApp tidak valid (8-15 digit).",
+      "title": "Posisi wajib diisi.",
+      "category": "Pilih kategori.",
+      "type": "Pilih tipe pekerjaan.",
+      "location": "Pilih lokasi.",
+      "desc": "Deskripsi minimal 20 karakter."
+    },
+    "submitBtn": "Kirim Lowongan via WhatsApp",
+    "note": "Dengan mengirim, Anda setuju lowongan ini ditampilkan di portal JOSH."
+  }
+}

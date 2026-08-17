@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lowongan Kerja — Bangli | JOSH</title>
+  <meta name="description" content="Daftar lowongan kerja terbaru di daerah Bangli. Filter berdasarkan kategori, tipe, dan lokasi.">
+  <meta name="theme-color" content="#000000">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css?v=bs" rel="stylesheet">
+</head>
+<body data-page="lowongan">
+
+  <div id="nav-slot"></div>
+
+  <!-- Page Header -->
+  <section class="page-header-josh">
+    <div class="container">
+      <span class="eyebrow">📋 Daftar Lowongan</span>
+      <h1>Lowongan Kerja di Bangli</h1>
+      <p>Temukan peluang karir terbaik di seluruh kecamatan Bangli</p>
+    </div>
+  </section>
+
+  <!-- Toolbar: Search + Filters -->
+  <div class="listings-toolbar-josh">
+    <div class="container">
+      <div class="row g-2 align-items-center">
+        <div class="col-lg-4">
+          <div class="search-box-josh">
+            <input type="text" id="search-input" placeholder="Cari posisi, perusahaan..." aria-label="Cari">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <select class="form-select filter-select-josh" id="filter-cat" aria-label="Filter kategori"></select>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <select class="form-select filter-select-josh" id="filter-type" aria-label="Filter tipe"></select>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <select class="form-select filter-select-josh" id="filter-loc" aria-label="Filter lokasi"></select>
+        </div>
+        <div class="col-lg-1 col-12">
+          <button class="btn btn-outline-dark w-100" id="clear-filters" style="border-radius:9999px;font-size:.8rem">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Job Grid -->
+  <section class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <p class="text-muted mb-0">Menampilkan <strong id="result-count">0</strong> lowongan</p>
+      </div>
+      <div class="row g-4" id="job-grid"></div>
+      <div class="mt-5" id="pagination"></div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js?v=bs"></script>
+  <script src="js/ui.js?v=bs"></script>
+</body>
+</html>
