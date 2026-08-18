@@ -81,8 +81,7 @@ function renderNavbar() {
     <nav class="navbar navbar-expand-lg fixed-top navbar-josh" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="${basePath()}/index.html">
-          JOSH
-          <span class="logo-sub">Job Optimisation &amp; Staffing Hub</span>
+          <img src="${basePath()}/Logo-White.png" alt="JOSH — Job Optimisation and Staffing Hub" class="navbar-logo">
         </a>
         <button class="navbar-toggler" type="button"
           data-bs-toggle="collapse" data-bs-target="#navMain"
