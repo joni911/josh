@@ -12,7 +12,7 @@ const JOSH = {
 
 // ─── Fetch JSON ───────────────────────────────
 async function loadData() {
-  const bp = window.location.pathname.includes('/project/josh-job-portal') ? '/project/josh-job-portal' : '';
+  const bp = basePath();
   const [cRes, jRes] = await Promise.all([
     fetch(bp + '/data/content.json'),
     fetch(bp + '/data/jobs.json')
@@ -219,7 +219,11 @@ function initScrollReveal() {
 
 // ─── Helpers ─────────────────────────────────
 function basePath() {
-  return window.location.pathname.includes('/project/josh-job-portal') ? '/project/josh-job-portal' : '';
+  const p = window.location.pathname.replace(/\/+$/, '');
+  const last = p.split('/').pop() || '';
+  const hasFile = last.includes('.');
+  const dir = hasFile ? p.slice(0, p.lastIndexOf('/')) : p;
+  return dir;
 }
 
 function fmtSalary(job) {
